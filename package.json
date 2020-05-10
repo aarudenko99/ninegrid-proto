@@ -1,16 +1,16 @@
 {
-	"name": "project-name",
+	"name": "ninegrid-proto",
 	"version": "0.0.1",
-	"description": "A description for your project.",
+	"description": "HTML version of ninegrid",
 	"main": "./dist/your-main-js-file.js",
 	"author": {
-		"name": "YOUR NAME",
-		"url": "http://link-to-your-website.com"
+		"name": "alexander rudenko",
+		"url": ""
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "http://link-to-your-git-repo.com"
+		"url": "https://github.com/aarudenko99/ninegrid-proto"
 	},
 	"boilerplate": {
 		"version": "2.2.6",
