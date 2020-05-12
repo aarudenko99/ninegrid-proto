@@ -114,6 +114,11 @@ body {
 		font-weight: bold;
 	}
 
+	.diet_normal {
+		font-size: 15px;
+		color: #000000;
+	}
+
 	.ready {
 		background: #89E37A !important;
 	}
@@ -192,6 +197,60 @@ body {
 			color: #828282;
 			margin: 5px 0;
 		}
+
+		.diet_wrap {
+			display: flex;
+			justify-content: space-between;
+			div {
+				font-size: 15px;
+				color: #000000;
+			}
+		}
+
+		.coffee_wrap {
+			display: flex;
+			justify-content: space-between;
+			div {
+				font-size: 14px;
+				color: #474747;
+			}
+		}
+
+		.menu {
+			margin-bottom: 20px;
+		}
+
+		.order_sent {
+			background: #B9D8F4;
+			border-radius: 12px;
+			width: 100%;
+			height: 35px;
+			font-weight: bold;
+			font-size: 13px;
+			color: #FAFAFA;
+			border: none;
+    	box-shadow: none;
+		}
+
+		.card_order {
+			justify-content: center;
+			margin-top: 25px;
+			.card {
+				width: 100px;
+				height: 100px;
+				padding-top: 16px;
+				p {
+					min-height: 0px;
+				}
+				.status {
+					height: 22px;
+				}
+			}
+		}
+
+		.sub_title {
+			margin-top: 25px;
+		}
 	}
 
  .accordion-toggle:after {
@@ -245,6 +304,10 @@ body {
 	    background: black;
 	    border-radius: 0 0 12px 12px;
 		}
+	}
+
+	hr {
+		 margin: 10px 0 !important;
 	}
 	
 }
